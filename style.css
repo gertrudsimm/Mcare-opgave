@@ -1,0 +1,181 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'arial', sans-serif;
+	scroll-behavior: smooth;
+}
+
+nav{
+	width: 50%;
+	text-align: center;
+	position: fixed;
+	top: 1%;
+	left: 25%;
+	z-index: 1000;
+		background: #3971cc;
+	border: 5px solid #fff;
+}
+
+nav a{
+	display: inline-block;
+	color: #fff;
+	padding: 10px;
+	text-decoration: none;
+}
+
+nav a:hover{
+	filter: brightness(80%);
+}
+
+nav li{
+	display: inline-block;
+}
+
+.hero video{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -100;
+}
+
+.home{
+	background: #fff;
+	width: 70%;
+	height: 70vh;
+	margin: auto;
+	padding: 5%;
+	margin-top: 8%;
+	border: solid 5px #000;
+}
+
+.hero img{
+	width: 40%;
+	margin-top: -10vh;
+	margin-left: 22%;
+	position: absolute;
+	
+}
+
+.left{
+	display: inline-block;
+	float: left;
+	width: 30%;
+}
+
+.left li{
+	margin-top: 5%;
+}
+
+.left h1{
+	width: 150%;
+	margin-bottom: 10%;
+}
+
+section{
+	margin-top: 15vh;
+}
+
+.rep{
+	background-image: url("img/rawmaterial_1.jpg");
+	 background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	width: 100%;
+	 background-attachment: fixed;
+}
+
+.flex, .reffer{
+	background: #fff;
+	width: 70%;
+	height: 70vh;
+	padding: 5%;
+	top: 115%;
+	left: 15%;
+	border: solid 5px #000;
+	position: absolute;
+}
+
+.flex-wrap p{
+	width: 30%;
+	padding: 2%
+}
+
+.flex-wrap{
+	display: flex;
+		flex-wrap: wrap;
+	align-content: center;
+	margin-top: 5%;
+	align-items: flex-start;
+}
+
+.flex-wrap img{
+	width: 3%;
+	margin-top: 2%;
+	
+}
+
+.ref{
+	height: 70vh;
+}
+
+.reffer{
+	top: 215%;
+	border: none;
+	padding: 0;
+}
+
+.logo img{
+	width: 100%
+}
+
+.dit img{
+	width: 150%;
+	margin-left: 10%;
+}
+
+h2{
+	font-size: 200%;
+}
+
+footer{
+	background-color: #3971cc;
+	width: 100%;
+	color: #fff;
+	position: absolute;
+	margin-top: 8%;
+	overflow-x: hidden;	
+}
+
+.kontakt{
+	width: 60%;
+	text-align: center;
+	margin: auto;
+}
+
+.kontakt p{
+	display: inline-block;
+	padding: 2%;
+}
+
+.knap{
+	width: 40%;
+	text-align: center;
+	margin: auto;
+	padding: 2%;
+}
+
+.knap h2{
+	font-size: 400%
+}
+
+button{
+	width: 50%;
+	height: 70px;
+	font-size: 200%;
+	margin: 5%;
+		
+}
+
